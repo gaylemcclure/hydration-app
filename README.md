@@ -3,7 +3,9 @@
 An app to help remind you to drink more water in your day. 
 Enter the start time, end time and amount of water and the app will remind you at set intervals to drink water. 
   
-
+<video controls src="public/screenshot-1.mp4" title="Title" autoplay></video>
+![alt text](public/screenshot2.png)
+![alt text](public/screenshot3.png)
 
 ## Getting Started
 
