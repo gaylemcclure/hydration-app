@@ -1,0 +1,170 @@
+html {
+  background-color: #081a28;
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.App-header,
+.drink-heading {
+  font-size: 6rem;
+  color: #e3762e;
+  text-transform: uppercase;
+  font-family: 'Montserrat Alternates';
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+}
+
+.App-header {
+  margin: 105px 0 75px;
+}
+
+.drink-heading {
+  margin: 52px 0 35px;
+}
+
+p {
+  font-family: 'Poppins';
+  font-size: 1.5rem;
+  color: #E4E3E2;
+  font-weight: 200;
+}
+
+.startText {
+  margin-bottom: 150px;
+}
+
+.start-button {
+  background-color: #e3762e;
+  font-family: "Montserrat Alternates";
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 30px 60px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: #252C41;
+  border: none;
+  box-shadow: 4px 3px 3px 0px rgba(81, 80, 80, 0.27);
+
+}
+
+.start-button:hover {
+  cursor: pointer;
+}
+
+h1 {
+  color: #E4E3E2;
+}
+
+.timer {
+  color: #E4E3E2;
+}
+
+.drink-amount {
+  color: #e3762e;
+  font-weight: 600;
+
+}
+
+.sub-heading {
+  color: #587792;
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: "Montserrat Alternates";
+  text-transform: uppercase;
+}
+
+.goal {
+  background-color: #E4E3E2;
+  margin: 0 400px 30px;
+  border-radius: 10px;
+  opacity: 0.9;
+  padding: 20px 0 10px;
+}
+
+p.test-text {
+  color:#081a28;
+  margin-bottom: 39px;
+}
+
+.icon, 
+.sub-heading {
+  display: inline;
+}
+
+.fa-bullseye,
+.fa-trophy {
+  width: 40px;
+  height: 40px;
+  color: #e3762e;
+  padding-right: 20px;
+}
+
+.timer-inner {
+  display: inline-flex;
+  padding: 30px;
+}
+
+.time {
+  padding: 15px 20px;
+  font-size: 5rem;
+  font-family: "Montserrat Alternates";
+  border: #E4E3E2 solid 2px;
+  border-radius: 10px;
+  max-width: 60px;
+  min-width: 60px;
+  margin: 0 3px;
+  background-color: #E4E3E2;
+  color:#081a28;
+  
+}
+
+.colon {
+  border: none;
+  padding: 15px 10px;
+  background-color: #081a28;
+  color: #e3762e;
+}
+
+.drink-button {
+  background-color: #e3762e;
+  font-family: "Montserrat Alternates";
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 30px 60px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: #252C41;
+  border: none;
+  box-shadow: 4px 3px 3px 0px rgba(81, 80, 80, 0.27);
+  display: block;
+  margin-left: 38%;
+  margin-bottom: 50px;
+}
+
+.drink-button:hover {
+  cursor: pointer;
+}
+
+.reset-button {
+  background-color: #e3762e;
+  font-family: "Montserrat Alternates";
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 15px 30px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: #252C41;
+  border: none;
+  box-shadow: 4px 3px 3px 0px rgba(81, 80, 80, 0.27);
+}
+
+.errorMessage {
+  font-family: "Poppins";
+  color: #9f2727
+}

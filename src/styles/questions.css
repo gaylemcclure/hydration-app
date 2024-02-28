@@ -1,0 +1,85 @@
+.title {
+  font-size: 4rem;
+  color: #e3762e;
+  text-transform: uppercase;
+  font-family: 'Montserrat Alternates';
+  font-weight: 300;
+  margin: 90px 0 70px;
+  width: 100%;
+  text-align: center;
+}
+
+label {
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    color: #081a28;
+    font-weight: 400;
+    /* margin-bottom: 150px; */
+}
+
+.startText, .amountText {
+  margin-bottom: 15px;
+}
+
+.question-box {
+  background-color: #e4e3e29e;
+  width: 40%;
+  margin: auto;
+  padding: 24px 75px;
+  border-radius: 10px;;
+
+}
+
+.dropdown, .slider {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.selectBox, .sliderBox {
+  border: none;
+  background-color: #081a28;
+  border-radius: 10px;
+  color: #E4E3E2;
+  font-family: 'Poppins';
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.selectBox {
+  padding: 10px 60px 10px 60px;
+  margin-left: 184px;
+}
+
+.sliderBox {
+  margin-left: 220px;
+}
+
+.outputText {
+  padding-left: 20px;
+}
+
+.selectBox.selectMinutes {
+  margin-left: 155px;
+}
+
+.get-started {
+  background-color: #081a28;
+  font-family: "Montserrat Alternates";
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 30px 60px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: #e3762e;
+  border: 2px solid #e3762e;
+  box-shadow: 4px 3px 3px 0px rgba(81, 80, 80, 0.27);
+  margin-top: 50px;
+}
+
+.get-started:hover, 
+.selectBox:hover,
+.sliderBox {
+  cursor: pointer;
+}
+
