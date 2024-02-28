@@ -4,7 +4,7 @@ import StartButton from './routes/StartButton';
 import Questions from './routes/Questions';
 import WaterPage from './routes/WaterPage';
 
-function App() {
+function AppCopy() {
   const [start, setStart] = useState(0)
   const [startDrink, setStartDrink] = useState(false)
 
@@ -25,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppCopy;

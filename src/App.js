@@ -6,7 +6,7 @@ import WaterPage from './routes/WaterPage';
 import TimerPage from './routes/TimerPage'
 import './styles/App.css';
 
-function App() {
+const App = () => {
   
 
   return (
