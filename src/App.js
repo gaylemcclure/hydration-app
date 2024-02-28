@@ -6,6 +6,15 @@ import WaterPage from './routes/WaterPage';
 import TimerPage from './routes/TimerPage'
 import './styles/App.css';
 
+// var ghpages = require('gh-pages');
+
+// ghpages.publish('public',{
+//   user: {
+//     name: "Gayle McClure",
+//     email: 'gaylekdennison@gmail.com'
+//   }
+// }, function(err) {});
+
 const App = () => {
   
 
